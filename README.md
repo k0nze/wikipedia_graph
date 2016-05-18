@@ -25,4 +25,4 @@ To finally run the program one has to execute the following command:
 
 `Rscript wikipedia_graph.R`
 
-The graph will be stored in the two files `vertices.Rda` and `edges.Rda`
+The graph will be stored in the two files `vertices.Rda` and `edges.Rda`. Also a pdf is rendered and stored in `graph.pdf` (the pdf might need some adjustments to be readable).
