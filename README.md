@@ -2,6 +2,8 @@
 
 This little R script starts with an URL for a Wikipedia page (English Wikipedia), extracts internal Wikipedia URLs from this page and recursively investigates those Wikipedia pages. With this information a graph is constructed.
 
+![example graph](https://raw.githubusercontent.com/k0nze/wikipedia_graph/master/graph_example.png "example graph")
+
 ## Usage
 ### Libraries
 
