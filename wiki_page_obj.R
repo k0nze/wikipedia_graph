@@ -1,3 +1,5 @@
+# Author: Konstantin (Konze) Lübeck
+
 # object definition for a wikipedia page
 wiki.page.obj <- setRefClass(
     Class = "wiki.page",

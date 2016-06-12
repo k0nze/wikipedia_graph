@@ -1,11 +1,16 @@
+# Author: Konstantin (Konze) Lübeck
+
 library("RCurl")
 library("XML")
 library("stringr")
 
-# retrieves title of wiki.page and adds all wiki links to 'links' 
-# in the wiki.page object with their url.title
 investigate.wiki.page <- function(wiki.page) {
-   
+    # retrieves title of wiki.page and adds all wiki links to 'links' 
+    # in the wiki.page object with their url.title
+    #
+    # Args:
+    #   wiki.page: wikipedia page object
+
     # construct complete URL from url title and url front 
     wiki.page.url <- paste(url.front, wiki.page$url.title, sep="")
    

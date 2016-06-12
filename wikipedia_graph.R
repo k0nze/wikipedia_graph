@@ -1,3 +1,5 @@
+# Author: Konstantin (Konze) Lübeck
+
 library(igraph)
 
 source("wiki_page_obj.R")

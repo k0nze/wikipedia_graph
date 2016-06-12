@@ -1,4 +1,4 @@
-# Andrew Collier
+# Author: Andrew Collier
 # http://www.exegetic.biz/blog/2013/11/implementing-a-queue-as-a-reference-class/
 
 Queue <- setRefClass(

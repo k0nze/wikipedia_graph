@@ -1,10 +1,15 @@
+# Author: Konstantin (Konze) Lübeck
+
 library("RCurl")
 library("XML")
 library("stringr")
 
-# retrieves the title of a wiki page
 set.wiki.page.title <- function(wiki.page) {
-    
+    # retrieves the title of a wiki page
+    #
+    # Args:
+    #   wiki.page: wikipedia page object
+
     # construct complete URL from url title and url front 
     wiki.page.url <- paste(url.front, wiki.page$url.title, sep="")
     
